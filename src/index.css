@@ -1,0 +1,13 @@
+html,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+
+.shadow-form {
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 30px 30px 54px #a6a6a6,
+        -30px -30px 54px #ffffff;
+}

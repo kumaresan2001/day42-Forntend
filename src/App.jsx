@@ -13,7 +13,7 @@ import OrderDetails from "./components/User/OrderDetails";
 import Orders from "./components/User/Order";
 import Payment from "./components/User/Payment";
 // export const API_URL = "http://localhost:8000";
-export const API_URL = "https://day42-backend-foodapp.onrender.com";
+export const API_URL = "https://backend-day42.onrender.com";
 export const cartContext = createContext();
 export const addressContext = createContext();
 

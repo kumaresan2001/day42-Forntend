@@ -26,7 +26,7 @@ function Payment() {
   const initPayment = (data) => {
     // console.log(data);
     const options = {
-      key: "rzp_test_2CuJ8wmq3mGbip",
+      key: "rzp_test_xRqxC6i3Rrctkn",
       amount: data.amount,
       currency: data.currency,
       name: "Food Delivery App",

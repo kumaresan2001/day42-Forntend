@@ -26,11 +26,11 @@ function Food() {
         if (res.data.statusCode === 200) {
           setData(res.data.food);
         } else {
-          navigate("/login");
+          navigate("/");
         }
       } else {
         alert("Session Expired");
-        navigate("/login");
+        navigate("/");
       }
     } catch (err) {
       alert(err.message);

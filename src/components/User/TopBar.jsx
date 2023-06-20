@@ -11,12 +11,12 @@ function TopBar(props) {
     <>
       <Navbar className="bg-dark bg-gradient" variant="dark">
         <Container fluid className="mx-4">
-          <Navbar.Brand onClick={() => navigate("/")}>FoodApp</Navbar.Brand>
+          <Navbar.Brand onClick={() => navigate("/food")}>FoodApp</Navbar.Brand>
           <Nav className="gap-3">
             <Button
               className="bg-dark bg-gradient"
               variant="outline-secondary"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/food")}
             >
               Home
             </Button>
@@ -39,7 +39,7 @@ function TopBar(props) {
               variant="outline-secondary"
               onClick={() => {
                 sessionStorage.clear();
-                navigate("/login");
+                navigate("/");
               }}
             >
               <svg

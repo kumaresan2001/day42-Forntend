@@ -27,9 +27,10 @@ function App() {
         <cartContext.Provider value={{ cart, setCart }}>
           <addressContext.Provider value={{ address, setAddress }}>
             <Routes>
-              <Route path="/login" element={<Login />} />
+              <Route path="/" element={<Login />} />
+
               <Route path="/signup" element={<Signup />} />
-              <Route path="/" element={<Food />} />
+              <Route path="/food" element={<Food />} />
               <Route path="/user-cart" element={<Cart />} />
               <Route path="/payment" element={<Payment />} />
               <Route path="/dashboard" element={<Dashboard />} />

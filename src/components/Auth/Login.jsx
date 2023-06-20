@@ -41,7 +41,7 @@ export default function Login() {
       if (res.data.role === "Admin") {
         navigate("/dashboard");
       } else {
-        navigate("/");
+        navigate("/food");
       }
     } else {
       setMessage(res.data.message);

@@ -25,11 +25,11 @@ function Dashboard() {
           setData(res.data.orders);
         } else {
           alert(res.data.message);
-          navigate("/login");
+          navigate("/");
         }
       } else {
         alert("Session Expired");
-        navigate("/login");
+        navigate("/");
       }
     } catch (error) {
       alert(error);

@@ -91,7 +91,7 @@ function Payment() {
         }
       } else {
         alert("Token Expired! Please Login");
-        navigate("/login");
+        navigate("/");
       }
     } catch (err) {
       alert(err);

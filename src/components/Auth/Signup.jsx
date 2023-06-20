@@ -44,7 +44,7 @@ export default function Signup() {
     // console.log(res);
     if (res.data.statusCode === 200) {
       alert(res.data.message);
-      navigate("/login");
+      navigate("/");
     } else {
       setMessage(res.data.message);
       setStatus("error");
@@ -120,7 +120,7 @@ export default function Signup() {
           {loading ? <Spinner animation="border" variant="light" /> : submitBtn}
         </Button>
         <div className="d-flex justify-content-end">
-          <Link to="/login">Already Registered??</Link>
+          <Link to="/">Already Registered??</Link>
         </div>
         {message ? (
           <div className="text-center text-danger">{message}</div>

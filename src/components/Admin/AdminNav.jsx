@@ -34,7 +34,7 @@ function AdminNav() {
               variant="outline-secondary"
               onClick={() => {
                 sessionStorage.clear();
-                navigate("/login");
+                navigate("/");
               }}
             >
               <svg

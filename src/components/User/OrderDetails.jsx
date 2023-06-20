@@ -37,11 +37,11 @@ function OrderDetails() {
         setUserName(res.data.order.userName);
       } else {
         alert(res.data.message);
-        // navigate("/login");
+        // navigate("/");
       }
     } else {
       alert("Session Expired");
-      navigate("/login");
+      navigate("/");
     }
   };
 

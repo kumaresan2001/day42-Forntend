@@ -8,7 +8,7 @@ export default function IntroNavBar() {
       <div className="container-fluid">
         <h4
           onClick={() => {
-            navigate("/login");
+            navigate("/");
           }}
           className="mx-5"
           style={{ cursor: "pointer" }}

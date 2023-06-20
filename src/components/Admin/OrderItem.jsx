@@ -34,7 +34,7 @@ function OrderItem() {
       }
     } else {
       alert("Session Expired");
-      navigate("/login");
+      navigate("/");
     }
   };
 
